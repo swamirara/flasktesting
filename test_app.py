@@ -8,7 +8,7 @@ class TestApp():
         """ setup any state specific to the execution of the given class (which
         usually contains tests).
         """
-        self.base_url = "http://0.0.0.0:8081/"
+        self.base_url = "http://192.168.1.10:8081/"  # private or public ip address
 
     @classmethod
     def teardown_class(self):
